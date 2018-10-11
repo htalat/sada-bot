@@ -1,0 +1,77 @@
+entities:
+  - name
+  - date
+  - place
+  - item
+  - amount
+
+intents:
+  - enter_data: {use_entities: false}
+  - greet
+  - bye
+  - ask_name
+  - ask_email
+  - ask_item
+  - ask_place
+  - ask_amount
+
+templates:
+  utter_greet:
+    - "Hey there"
+    - "Hi there"
+    - "Hello"
+  utter_bye:
+    - "byeee"
+    - "bye bye"
+    - "goodbye"
+  utter_ask_name:
+    - "So umm whats your name?"
+    - "who are you?"
+    - "can i have your name?"
+  utter_thanks:
+    - "thanks"
+    - "thank you"
+  utter_ask_place:
+    - "where did you get it?"
+
+  utter_ask_item:
+    - "what did you get?"
+
+  utter_ask_amount:
+    - "how much was it?"
+
+  utter_ask_note:
+    - "any note to attach to this purchase?"
+
+  utter_store_info:
+    - "great! adding the purchase"
+
+actions:
+  - utter_greet
+  - utter_bye
+  - utter_thanks
+  - utter_ask_item
+  - utter_ask_place
+  - utter_ask_amount
+  - utter_ask_note
+  - utter_store_info
+  - action_store_name
+  - action_store_item
+  - action_store_place
+  - action_store_amount
+  - action_store_note
+  - action_store_info
+
+slots:
+  person_name:
+    type: text
+  date:
+    type: text
+  place:
+    type: text
+  item:
+    type: text
+  amount:
+    type: text
+  note:
+    type: text
