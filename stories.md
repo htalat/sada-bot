@@ -24,3 +24,10 @@
 	- slot{"note": "a note"}
 	- action_store_info
 	- utter_store_info
+
+## list purchases
+* greet
+	- utter_greet
+* start_list_purchase_flow
+	- action_list_purchases
+	- utter_list_purchases

@@ -46,6 +46,9 @@ templates:
   utter_store_info:
     - "great! adding the purchase"
 
+  utter_list_purchases:
+    - "sure!"
+
 actions:
   - utter_greet
   - utter_bye
@@ -55,12 +58,14 @@ actions:
   - utter_ask_amount
   - utter_ask_note
   - utter_store_info
+  - utter_list_purchases
   - action_store_name
   - action_store_item
   - action_store_place
   - action_store_amount
   - action_store_note
   - action_store_info
+  - action_list_purchases
 
 slots:
   person_name:

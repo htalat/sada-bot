@@ -29,3 +29,9 @@
 - I bought something
 - I got something
 - I made a purchase
+
+
+## intent:start_list_purchase_flow
+- Show me my today's activity
+- What did I do today?
+- Show me today's purchases

@@ -88,3 +88,14 @@ class ActionStoreInfo(Action):
 		line_item = [date, place, item, amount, note]
 		logger.info('storing the note! ')
 		logger.info(line_item)
+
+
+class ActionListPurchases(Action):
+	"""Stores the users name in a slot"""
+
+	def name(self):
+		return "action_list_purchases"
+
+	def run(self, dispatcher, tracker, domain):
+
+		logger.info('listing purchases')
